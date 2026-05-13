@@ -594,7 +594,7 @@ img {
 /* Services */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 50px;
 }
@@ -820,6 +820,7 @@ img {
     .about-grid { grid-template-columns: 1fr; gap: 60px; }
     .glass-float-card { bottom: -20px; left: 20px; right: 20px; }
     .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
     .cta-box { flex-direction: column; text-align: center; padding: 50px 30px; }
     .contact-info-inline { justify-content: center; flex-wrap: wrap; }
     .cta-glow { top: 0; right: 0; }
@@ -839,6 +840,7 @@ img {
     .hero-overlay { background: linear-gradient(to bottom, rgba(250,250,248,0.9) 0%, rgba(250,250,248,0.7) 100%); }
     .footer-grid { grid-template-columns: 1fr; gap: 40px; }
     .portfolio-grid { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr; }
     .tilt-card, .tilt-card-heavy { transform: none !important; } /* Disable 3D tilt on mobile for performance */
     
     /* Disable custom cursor on mobile */
